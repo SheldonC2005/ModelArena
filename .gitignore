@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual Environment
+ModelArena_env/
+
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+
+# Data files (videos)
+archive/train/fake/*.mp4
+archive/train/real/*.mp4
+archive/test/*.mp4
+
+# Keep structure but ignore videos
+!archive/train/fake/.gitkeep
+!archive/train/real/.gitkeep
+!archive/test/.gitkeep
+
+# CSV files (keep sample, ignore large ones)
+*.csv
+!archive/train_labels.csv
+!archive/test_public.csv
+
+# Model outputs
+models/
+*.png
+*.jpg
+*.jpeg
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Google Drive
+.gdrive_cache
+
+# Submission (keep structure)
+SUBMISSION_DIRECTORY/*.pt
+SUBMISSION_DIRECTORY/*.csv
+SUBMISSION_DIRECTORY/*.pdf
+
+# Keep README in submission
+!SUBMISSION_DIRECTORY/README.md
+!SUBMISSION_DIRECTORY/.placeholder

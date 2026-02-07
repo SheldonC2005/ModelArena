@@ -1,0 +1,6 @@
+# Placeholder for training configuration
+# This file will be generated after hyperparameter tuning in the training notebook
+
+{
+  "note": "Run TRAINING_PIPELINE.ipynb to generate the actual configuration"
+}
